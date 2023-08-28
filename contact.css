@@ -1,0 +1,95 @@
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+header nav {
+  text-align: left;
+}
+#one {
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 30%;
+  margin-left: none;
+}
+.fclass {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.contact label {
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact textarea {
+  resize: vertical;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
